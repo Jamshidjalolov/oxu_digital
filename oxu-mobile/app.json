@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "OXU Digital",
+    "slug": "oxu-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/oxu-logo.png",
+    "scheme": "oxumobile",
+    "primaryColor": "#2563eb",
+    "backgroundColor": "#f2f4f8",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "uz.oxu.digital",
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "apiUrl": ""
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font",
+      "expo-notifications"
+    ]
+  }
+}

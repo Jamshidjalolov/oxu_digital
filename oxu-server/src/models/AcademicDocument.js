@@ -1,0 +1,26 @@
+const mongoose = require('mongoose');
+const academicDocumentSchema = new mongoose.Schema({
+  type: { type: String, enum: ['article','thesis','patent','monograph','certificate'], required: true },
+  title: { type: String, required: true, trim: true, minlength: 8, maxlength: 300 },
+  authors: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true }],
+  department: { type: mongoose.Schema.Types.ObjectId, ref: 'Department', default: null },
+  journal: { type: String, trim: true, maxlength: 200, default: '' },
+  venue: { type: String, trim: true, maxlength: 200, default: '' },
+  authorDepartment: { type: String, trim: true, maxlength: 160, default: '' },
+  studentCoauthored: { type: Boolean, default: false },
+  publishedAt: { type: Date, default: null },
+  articleKind: { type: String, trim: true, maxlength: 120, default: '' },
+  impactFactor: { type: Number, min: 0, max: 100, default: 0 },
+  scopus: { type: Boolean, default: false },
+  url: { type: String, trim: true, maxlength: 500, default: '' },
+  issn: { type: String, trim: true, maxlength: 30, default: '' },
+  pages: { type: Number, min: 1, max: 2000, default: null },
+  file: { name: String, data: String },
+  status: { type: String, enum: ['pending','approved','rejected'], default: 'pending' },
+  reviewNote: { type: String, maxlength: 500, default: '' },
+  baseScore: { type: Number, min: 0, max: 100, default: 1 },
+  awardedScore: { type: Number, min: 0, max: 100, default: 0 },
+  reviewedBy: { type: mongoose.Schema.Types.ObjectId, ref: 'User', default: null },
+  reviewedAt: { type: Date, default: null },
+}, { timestamps: true });
+module.exports = mongoose.model('AcademicDocument', academicDocumentSchema);

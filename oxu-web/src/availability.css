@@ -1,0 +1,23 @@
+.slot-availability { background: #f3f6fc; border: 1px solid #dfe7f4; border-radius: 13px; padding: 16px; margin: 14px 0 20px; }
+.slot-availability h4 { font-size: 13px; color: #354b78; }
+.slot-availability > p { font-size: 11px; color: #8593ab; margin-top: 7px; }
+.slot-bookings { display: grid; gap: 8px; margin-top: 12px; }
+.slot-bookings article { display: flex; flex-direction: column; gap: 5px; padding: 12px; border: 1px solid #f3d5da; border-left: 3px solid #e45b69; background: #fff8f8; border-radius: 8px; }
+.slot-bookings strong { font-size: 11px; color: #9b3c49; }
+.slot-bookings span { display: flex; align-items: center; gap: 5px; font-size: 11px; color: #8f7181; }
+.slot-bookings small { font-size: 10px; color: #a093a2; }
+.slot-availability .slot-clear { color: #23866d; }
+.slot-unassigned { background: #fff7e5; padding: 12px; margin-top: 12px; border-radius: 8px; font-size: 11px; color: #99752d; }
+.slot-unassigned p { margin: 6px 0; line-height: 1.8; }
+.slot-unassigned a { color: #586bb1; font-weight: 600; }
+.teacher-availability { display: grid; grid-template-columns: repeat(9,minmax(0,1fr)); gap: 7px; margin-bottom: 16px; }
+.teacher-slot { padding: 12px 8px; border: 1px solid #cde5dd; border-radius: 11px; background: #eef8f4; min-width: 0; }
+.teacher-slot strong,.teacher-slot span,.teacher-slot b,.teacher-slot small { display: block; }
+.teacher-slot strong { font-size: 11px; color: #43665d; }
+.teacher-slot span { font-size: 9px; color: #7a9a90; margin-top: 5px; }
+.teacher-slot b { font-size: 10px; color: #29836b; margin-top: 10px; }
+.teacher-slot small { font-size: 9px; line-height: 1.7; color: #a66670; margin-top: 7px; overflow-wrap: anywhere; }
+.teacher-slot.occupied { background: #fff0f1; border-color: #f3cbd1; }
+.teacher-slot.occupied b,.teacher-slot.occupied strong { color: #bd4354; }
+@media(max-width:900px) { .teacher-availability { grid-template-columns: repeat(3,minmax(0,1fr)); } }
+.notification-body { white-space: pre-line; }

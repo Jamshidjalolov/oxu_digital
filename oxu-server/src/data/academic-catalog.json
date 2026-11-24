@@ -1,0 +1,487 @@
+{
+  "checkedAt": "2026-11-17",
+  "departments": [
+    {
+      "name": "Iqtisodiyot",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Klinik fanlar",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Umumiy fanlar",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Xorijiy tillar",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Muhandislik va texnologiyalari",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Jismoniy madaniyat",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Pedagogika va psixologiya",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Aniq fanlar va raqamli texnologiyalar",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Stomatologiya",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Klinik oldi fanlar",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Fundamental tibbiyot",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "O‘zbek va rus tili filologiyasi",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Klinik fanlar 2",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Klinik fanlar 3",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Ijtimoiy-gumanitar fanlar",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    },
+    {
+      "name": "Maktabgacha va boshlang‘ich ta’lim",
+      "source": "https://oxu.uz/locales/uz/translation.json"
+    }
+  ],
+  "directions": [
+    {
+      "sourceId": 1,
+      "name": "Pedagogika",
+      "category": "Pedagogika va Ta'lim",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 2,
+      "name": "Psixologiya",
+      "category": "Pedagogika va Ta'lim",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 3,
+      "name": "Boshlang'ich ta'lim",
+      "category": "Pedagogika va Ta'lim",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 4,
+      "name": "Maktabgacha ta'lim",
+      "category": "Pedagogika va Ta'lim",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 33,
+      "name": "Maxsus pedagogika(Logoped)",
+      "category": "Pedagogika va Ta'lim",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 12,
+      "name": "Davolash ishi",
+      "category": "Tibbiyot",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 13,
+      "name": "Stomatologiya",
+      "category": "Tibbiyot",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 14,
+      "name": "Farmatsiya",
+      "category": "Tibbiyot",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 34,
+      "name": "Pediatriya ishi",
+      "category": "Tibbiyot",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 35,
+      "name": "Oliy hamshiralik ishi",
+      "category": "Tibbiyot",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 5,
+      "name": "Filologiya va tillarni o'qitish (Ingliz tili)",
+      "category": "Filologiya va tillarni o'qitish",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 6,
+      "name": "Filologiya va tillarni o'qitish (Rus tili)",
+      "category": "Filologiya va tillarni o'qitish",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 7,
+      "name": "Filologiya va tillarni o'qitish (O'zbek tili)",
+      "category": "Filologiya va tillarni o'qitish",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 10,
+      "name": "Iqtisodiyot",
+      "category": "Iqtisodiyot va Menejment",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 11,
+      "name": "Moliya va Moliyaviy texnologiyalar",
+      "category": "Iqtisodiyot va Menejment",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 36,
+      "name": "Menejment",
+      "category": "Iqtisodiyot va Menejment",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 37,
+      "name": "Marketing",
+      "category": "Iqtisodiyot va Menejment",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 38,
+      "name": "Jahon iqtisodiyoti va xalqaro iqtisodiy munosabatlar",
+      "category": "Iqtisodiyot va Menejment",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 39,
+      "name": "Soliqlar va soliqqa tortish",
+      "category": "Iqtisodiyot va Menejment",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 40,
+      "name": "Xalqaro munosabatlar",
+      "category": "Iqtisodiyot va Menejment",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 8,
+      "name": "Tarix",
+      "category": "Tarix va siyosat",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 55,
+      "name": "Siyosatshunoslik",
+      "category": "Tarix va siyosat",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 9,
+      "name": "Jismoniy Madaniyat",
+      "category": "Madaniyat va Sport",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 56,
+      "name": "Turizm va mehmondo'stlik",
+      "category": "Madaniyat va Sport",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 15,
+      "name": "Axborot tizimlari va texnologiyalari",
+      "category": "Texnika va texnologiyalar",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 16,
+      "name": "Konchilik ishi",
+      "category": "Texnika va texnologiyalar",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 17,
+      "name": "Texnologik mashinalar va jihozlar (temir yo'l transporti)",
+      "category": "Texnika va texnologiyalar",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 18,
+      "name": "Texnologik mashinalar va jihozlar (kimyo sanoati)",
+      "category": "Texnika va texnologiyalar",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 19,
+      "name": "Energetika muhandisligi",
+      "category": "Texnika va texnologiyalar",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 20,
+      "name": "Neft va neft-gazni qayta ishlash texnologiyasi",
+      "category": "Texnika va texnologiyalar",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 44,
+      "name": "Transport vositalari muhandisligi (Lokomotivlar bo'yicha)",
+      "category": "Texnika va texnologiyalar",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 45,
+      "name": "Kadastr",
+      "category": "Kadastr va Logistika",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 46,
+      "name": "Logistika",
+      "category": "Kadastr va Logistika",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 47,
+      "name": "Matematika",
+      "category": "Matematika va Tabiiy fanlar",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 48,
+      "name": "Biologiya",
+      "category": "Matematika va Tabiiy fanlar",
+      "level": "Bakalavriat",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 21,
+      "name": "Ta'lim va tarbiya nazariyasi va metodikasi (boshlang'ich ta'lim)",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 22,
+      "name": "Pedagogika",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 23,
+      "name": "Iqtisodiyot (tarmoqlar va sohalar bo'yicha)",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 24,
+      "name": "Jismoniy tarbiya va sport mashg'ulotlari",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 25,
+      "name": "Ta'limda axborot texnologiyalari",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 26,
+      "name": "Morfologiya",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 27,
+      "name": "Xorijiy til va adabiyoti (Ingliz tili)",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 28,
+      "name": "Psixologiya",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 49,
+      "name": "Rus tili va adabiyoti",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 50,
+      "name": "Matematika",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 51,
+      "name": "Tarix",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 52,
+      "name": "Stomatologiya",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 53,
+      "name": "Farmatsevtik kimyo va farmakognoziya",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 60,
+      "name": "O'zbek tili va adabiyoti",
+      "category": "Magistratura",
+      "level": "Magistratura",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 29,
+      "name": "Psixologiya",
+      "category": "Masofaviy ta'lim",
+      "level": "Masofaviy",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 30,
+      "name": "Tarix",
+      "category": "Masofaviy ta'lim",
+      "level": "Masofaviy",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 31,
+      "name": "Iqtisodiyot",
+      "category": "Masofaviy ta'lim",
+      "level": "Masofaviy",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    },
+    {
+      "sourceId": 32,
+      "name": "Moliya va moliyaviy texnologiyalar",
+      "category": "Masofaviy ta'lim",
+      "level": "Masofaviy",
+      "source": "https://newapi.oxu.uz/api/uz/speciality"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Farmakologiya",
+      "department": "Klinik oldi fanlar",
+      "source": "https://vacancy.oxu.uz/",
+      "verification": "Rasmiy vakansiyada fan nomi va kafedra ko‘rsatilgan; kod va o‘quv yuklamasi tasdiqlanmagan"
+    },
+    {
+      "name": "Farmasevtik biotexnologiya",
+      "department": "Umumiy fanlar",
+      "source": "https://vacancy.oxu.uz/",
+      "verification": "Rasmiy vakansiyada fan nomi va kafedra ko‘rsatilgan; kod va o‘quv yuklamasi tasdiqlanmagan"
+    },
+    {
+      "name": "Farmasevtik botanika",
+      "department": "Umumiy fanlar",
+      "source": "https://vacancy.oxu.uz/",
+      "verification": "Rasmiy vakansiyada fan nomi va kafedra ko‘rsatilgan; kod va o‘quv yuklamasi tasdiqlanmagan"
+    },
+    {
+      "name": "Klinik farmatsiya",
+      "department": "Umumiy fanlar",
+      "source": "https://vacancy.oxu.uz/",
+      "verification": "Rasmiy vakansiyada fan nomi va kafedra ko‘rsatilgan; kod va o‘quv yuklamasi tasdiqlanmagan"
+    },
+    {
+      "name": "Mutaxassislikka kirish",
+      "department": "Umumiy fanlar",
+      "source": "https://vacancy.oxu.uz/",
+      "verification": "Rasmiy vakansiyada fan nomi va kafedra ko‘rsatilgan; kod va o‘quv yuklamasi tasdiqlanmagan"
+    },
+    {
+      "name": "Biokimyo",
+      "department": "Umumiy fanlar",
+      "source": "https://vacancy.oxu.uz/",
+      "verification": "Rasmiy vakansiyada fan nomi va kafedra ko‘rsatilgan; kod va o‘quv yuklamasi tasdiqlanmagan"
+    },
+    {
+      "name": "Genetika va genomika asoslari",
+      "department": "Umumiy fanlar",
+      "source": "https://vacancy.oxu.uz/",
+      "verification": "Rasmiy vakansiyada fan nomi va kafedra ko‘rsatilgan; kod va o‘quv yuklamasi tasdiqlanmagan"
+    }
+  ],
+  "note": "Fan kodlari, majburiy/tanlov holati, soat va kreditlar rasmiy o‘quv rejasi topilmagani sababli avtomatik to‘ldirilmaydi."
+}

@@ -1,0 +1,27 @@
+.schedule-page .page-head { margin-bottom: 26px; }
+.schedule-page .page-subtitle { max-width: 660px; line-height: 1.8; font-size: 13px; }
+.schedule-page .week-nav { padding: 12px; border-radius: 16px; background: #fff; box-shadow: none; }
+.schedule-page .grid-legend { padding: 14px 18px; background: #fff; border: 1px solid var(--line); border-radius: 12px; gap: 24px; margin-bottom: 18px; }
+.schedule-page .legend-item { font-size: 11px; color: #78869c; }
+.schedule-page .schedule-table-wrap { border-radius: 18px; border: 1px solid #e4eaf3; background: #fff; padding: 0 10px 12px; box-shadow: 0 6px 24px #20365005; scrollbar-color: #b8c9ec #f6f8fc; }
+.schedule-page table.schedule-grid { border-collapse: separate; border-spacing: 4px; width: max-content; min-width: 100%; }
+.schedule-page table.schedule-grid thead th { background: #fff; padding: 18px 6px 12px; color: #344563; border: none; font-size: 12px; }
+.schedule-day-date { display: block; font-size: 10px; color: #8b99af; margin-top: 5px; font-weight: 400; }
+.schedule-page table.schedule-grid .teacher-col { min-width: 256px; width: 256px; max-width: 256px; left: 0; background: #fff; border: none; box-shadow: 7px 0 12px -8px #52699550; padding: 15px 14px; border-radius: 9px; }
+.schedule-page table.schedule-grid thead .teacher-col { color: #8a98ae; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+.schedule-page table.schedule-grid tbody .teacher-col { background: #f8fafd; color: #344563; height: 72px; }
+.schedule-avatar { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 11px; background: #eaf0ff; color: #5576c9; font-size: 11px; vertical-align: middle; margin-right: 10px; }
+.schedule-teacher-name { display: inline-block; max-width: 174px; vertical-align: middle; font-size: 10px; white-space: normal; line-height: 1.6; font-weight: 600; }
+.schedule-teacher-name small { display: block; color: #98a5b8; font-size: 9px; font-weight: 400; margin-top: 2px; }
+.schedule-page table.schedule-grid thead tr:nth-child(2) th { background: #f4f7fc; padding: 9px 3px; border-radius: 7px; min-width: 37px; }
+.schedule-page .pair-head span { display: block; color: #617495; font-size: 11px; }
+.schedule-page .pair-head small { display: block; font-size: 8px; color: #9aa8bc; font-weight: 400; margin-top: 4px; }
+.schedule-page table.schedule-grid .pair-cell { height: 72px; min-width: 37px; border-radius: 7px; border: 1px solid transparent; transition: background .15s, border-color .15s; }
+.schedule-page table.schedule-grid .pair-cell.free { background: #f5f8fc; }
+.schedule-page table.schedule-grid .pair-cell.free:hover { background: #eaf0ff; border-color: #9fb6fa; }
+.schedule-page table.schedule-grid .pair-cell.busy { background: #ffebe9; border: 1px solid #ffd4cf; box-shadow: inset 3px 0 #f17e72; }
+.schedule-page table.schedule-grid .pair-cell.busy:hover { background: #ffdcd7; transform: none; }
+.schedule-page table.schedule-grid .pair-cell.has-series::before { color: #d56b61; }
+.schedule-page table.schedule-grid tr.teacher-busy .teacher-col { background: #fff8e9; color: #856523; }
+.schedule-page table.schedule-grid tr.teacher-busy .schedule-avatar { background: #fcebc1; color: #b48422; }
+@media(max-width:760px) { .schedule-page .grid-legend { gap: 12px; padding: 12px; } .schedule-page table.schedule-grid .teacher-col { min-width: 180px; width: 180px; max-width: 180px; padding: 10px; } .schedule-teacher-name { max-width: 115px; font-size: 9px; } .schedule-avatar { width: 27px; height: 27px; margin-right: 6px; } }

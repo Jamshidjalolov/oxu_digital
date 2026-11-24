@@ -1,0 +1,42 @@
+.schedule-page .page-head { background: #fff; border-color: #e4e9f2; }
+.schedule-page .page-head .eyebrow { background: #e9f6f2; color: #087c68; }
+.schedule-page .page-head .btn-primary { background: #117d70; box-shadow: 0 5px 14px #117d7020; }
+.schedule-page .schedule-days { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); gap: 8px; margin: 20px 0 16px; }
+.schedule-days button { padding: 14px 5px; border: 1px solid #e1e8ef; border-radius: 13px; background: #fff; color: #76849b; transition: background .15s; }
+.schedule-days button strong { display:block; font-size: 12px; }
+.schedule-days button span { display:block; font-size: 11px; margin-top: 6px; opacity: .75; }
+.schedule-days button.selected { background: #143c39; border-color: #143c39; color: #fff; box-shadow: 0 5px 12px #143c391c; }
+.schedule-days button:hover:not(.selected) { background: #eaf7f2; color: #117d70; }
+.schedule-page .schedule-table-wrap { padding: 8px; border: 1px solid #e0e8e6; box-shadow: 0 8px 26px #143c3908; overflow: visible; }
+.schedule-page table.schedule-grid { width: 100%; min-width: 0; table-layout: fixed; border-spacing: 4px; }
+.schedule-page table.schedule-grid .teacher-col { width: 23%; min-width: 0; max-width: none; position: static; box-shadow: none; background: #f3f7f6; }
+.schedule-page table.schedule-grid thead tr:first-child th:not(.teacher-col) { background: #143c39; }
+.schedule-page table.schedule-grid thead .teacher-col { background: #f3f7f6; color: #6b817b; }
+.schedule-page table.schedule-grid thead tr:nth-child(2) th { min-width: 0; background: #edf4f1; }
+.schedule-page .pair-head span { color: #32675b; }
+.schedule-page .pair-head small { color: #8b9e98; }
+.schedule-page table.schedule-grid .pair-cell { min-width: 0; height: 70px; }
+.schedule-page table.schedule-grid .pair-cell.free { background: #f0f5f3; border-color: #e7efeb; }
+.schedule-page table.schedule-grid .pair-cell.free:hover { background: #d9f1e6; border-color: #64bda3; box-shadow: none; }
+.schedule-page table.schedule-grid .pair-cell.busy { background: #1caa86; border-color: #159a78; box-shadow: inset 0 1px #ffffff40; }
+.schedule-page table.schedule-grid .pair-cell.busy:hover { background: #12836a; border-color: #12836a; }
+.schedule-page table.schedule-grid tbody .teacher-col,
+.schedule-page table.schedule-grid tr.teacher-busy .teacher-col { background: #f3f7f6; color: #29483f; box-shadow: none; }
+.schedule-page .schedule-avatar,
+.schedule-page table.schedule-grid tbody tr:nth-child(n) .schedule-avatar { background: #d9eee4; color: #22775b; box-shadow: none; }
+.schedule-page .schedule-teacher-name { max-width: calc(100% - 48px); overflow-wrap: anywhere; color: #29483f; }
+.schedule-page .schedule-teacher-name small,
+.schedule-page table.schedule-grid tr.teacher-busy .schedule-teacher-name small { color: #8b9e98; }
+.schedule-page .legend-item:nth-child(2) .legend-swatch { background: #1caa86 !important; border-color: #159a78 !important; }
+.schedule-page .legend-item:nth-child(3) { display: none; }
+.schedule-page .legend-repeat { background: #e3f3ed; color: #178267; border-color: #c8e7da; }
+@media(max-width:600px) {
+ .schedule-page .schedule-days { grid-template-columns: repeat(3,minmax(0,1fr)); }
+ .schedule-page table.schedule-grid { border-spacing: 2px; }
+ .schedule-page table.schedule-grid .teacher-col { width: 30%; padding: 7px 4px; }
+ .schedule-page .schedule-avatar { display: none; }
+ .schedule-page .schedule-teacher-name { max-width: 100%; font-size: 8px; }
+ .schedule-page .pair-head small { display: none; }
+ .schedule-page table.schedule-grid .pair-cell { height: 62px; }
+ .schedule-page .schedule-table-wrap { padding: 3px; }
+}

@@ -1,0 +1,100 @@
+/* Vivid scheduling workspace. */
+.schedule-page {
+  --schedule-blue: #3858ff;
+  --schedule-pink: #ff438c;
+  --schedule-violet: #913dff;
+}
+.schedule-page .page-head {
+  padding: 26px;
+  border-radius: 22px;
+  border: 1px solid #e4ddff;
+  background: linear-gradient(115deg, #eef0ff, #faf0ff 65%, #fff0f6);
+}
+.schedule-page .page-head .eyebrow {
+  color: #7734df;
+  background: #e8dbff;
+}
+.schedule-page .page-title { color: #242354; }
+.schedule-page .page-head .btn-primary {
+  background: linear-gradient(120deg, #5145ff, #9b35f4);
+  box-shadow: 0 7px 18px #743fff35;
+  border-radius: 13px;
+}
+.schedule-page .week-nav {
+  border: 1px solid #dddfff;
+  box-shadow: 0 5px 18px #5540d008;
+}
+.schedule-page .week-nav-label svg { color: #7043f5; background: #eee7ff; }
+.schedule-page .week-nav .btn:not(:disabled):hover { color: #7434db; background: #eee7ff; }
+.schedule-page .grid-legend { background: #fff; border-color: #e5def9; }
+.schedule-page .legend-item { color: #596386; font-weight: 600; }
+.schedule-page .legend-item:nth-child(2) .legend-swatch {
+  background: #ff438c !important;
+  border-color: #ff438c !important;
+}
+.schedule-page .legend-item:nth-child(3) .legend-swatch {
+  background: #ffe044 !important;
+  border-color: #efc522 !important;
+}
+.schedule-page .legend-repeat { color: #873cf1; background: #f0e5ff; border-color: #dfc9ff; }
+.schedule-page .schedule-table-wrap {
+  border: 1px solid #e0dcfa;
+  border-top: 4px solid #7450ff;
+  background: #fff;
+  padding-top: 8px;
+  box-shadow: 0 12px 30px #5740a90b;
+  scrollbar-color: #9e7bff #f2edff;
+}
+.schedule-page table.schedule-grid thead tr:first-child th:not(.teacher-col) {
+  background: #4263ff;
+  color: #fff;
+  border-radius: 11px;
+  padding: 13px 8px;
+}
+.schedule-page table.schedule-grid thead tr:first-child th:nth-child(3) { background: #8b45ed; }
+.schedule-page table.schedule-grid thead tr:first-child th:nth-child(4) { background: #e54397; }
+.schedule-page table.schedule-grid thead tr:first-child th:nth-child(5) { background: #079e97; }
+.schedule-page table.schedule-grid thead tr:first-child th:nth-child(6) { background: #ed8a20; }
+.schedule-page table.schedule-grid thead tr:first-child th:nth-child(7) { background: #5961d9; }
+.schedule-page .schedule-day-date { color: #ffffffd9; font-size: 10px; }
+.schedule-page table.schedule-grid thead .teacher-col { color: #7250ac; background: #f4efff; }
+.schedule-page table.schedule-grid tbody .teacher-col { background: #f2efff; color: #43326e; }
+.schedule-page .schedule-avatar {
+  background: #7546ed;
+  color: #fff;
+  box-shadow: 0 4px 9px #7546ed24;
+}
+.schedule-page table.schedule-grid tbody tr:nth-child(2n) .schedule-avatar { background: #ed438b; }
+.schedule-page table.schedule-grid tbody tr:nth-child(3n) .schedule-avatar { background: #0aa49d; }
+.schedule-page .schedule-teacher-name small { color: #8977ab; }
+.schedule-page table.schedule-grid thead tr:nth-child(2) th { background: #eceeff; }
+.schedule-page .pair-head span { color: #5c51ae; }
+.schedule-page .pair-head small { color: #9388b5; }
+.schedule-page table.schedule-grid .pair-cell.free { background: #f0f2ff; border-color: #e7eafe; }
+.schedule-page table.schedule-grid .pair-cell.free:hover {
+  background: #e1dbff;
+  border-color: #9d7aff;
+  box-shadow: inset 0 0 0 1px #a27bff;
+}
+.schedule-page table.schedule-grid .pair-cell.free:hover::after { color: #7540ed; }
+.schedule-page table.schedule-grid .pair-cell.busy {
+  background: linear-gradient(155deg, #ff68a6, #f53380);
+  border: 1px solid #f9488b;
+  box-shadow: 0 3px 6px #ff438c20, inset 0 1px #ffffff38;
+}
+.schedule-page table.schedule-grid .pair-cell.busy:hover {
+  background: linear-gradient(155deg, #ff4292, #d91b68);
+  border-color: #d91b68;
+}
+.schedule-page table.schedule-grid .pair-cell.has-series::before { color: #fff; }
+.schedule-page table.schedule-grid tr.teacher-busy .teacher-col {
+  background: #fff0a3;
+  color: #775209;
+  box-shadow: inset 3px 0 #ffce1b, 7px 0 12px -8px #52699550;
+}
+.schedule-page table.schedule-grid tr.teacher-busy .schedule-avatar { background: #ffcc26; color: #805100; }
+.schedule-page table.schedule-grid tr.teacher-busy .schedule-teacher-name small { color: #a4822e; }
+@media (max-width: 760px) {
+  .schedule-page .page-head { padding: 20px; border-radius: 18px; }
+  .schedule-page .grid-legend { gap: 14px; }
+}

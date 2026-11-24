@@ -1,0 +1,18 @@
+{
+  "name": "oxu-digital",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OXU Digital: web, API, Expo mobile and Telegram bot",
+  "scripts": {
+    "dev": "node scripts/dev.cjs",
+    "dev:all": "node scripts/dev.cjs --mobile --bot",
+    "demo": "node scripts/dev.cjs --demo --mobile --bot",
+    "setup": "node scripts/check.cjs install",
+    "test": "node scripts/check.cjs test",
+    "build": "node scripts/check.cjs build",
+    "smoke": "node scripts/smoke.cjs"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
